@@ -17,7 +17,7 @@ namespace MvcMovie.Models
 
         public string Genre { get; set; }
 
-        public string Price { get; set; }
+        public decimal Price { get; set; }
     }
 
     public class MovieDBContext : DbContext 

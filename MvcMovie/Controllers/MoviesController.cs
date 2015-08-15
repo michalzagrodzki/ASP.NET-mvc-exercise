@@ -38,7 +38,9 @@ namespace MvcMovie.Controllers
             {
                 movies = movies.Where(g => g.Genre == movieGenre);
             }
-            return View(db.Movies.ToList());
+
+            return View(movies);
+
         }
 
         // GET: Movies/Details/5
